@@ -1,0 +1,74 @@
+{
+  "status": "PASS",
+  "completed_utc": "2026-11-25T15:26:47.994790+00:00",
+  "lean_version": "Lean (version 4.28.0, x86_64-unknown-linux-gnu, commit 7e01a1bf5c70fc6167d49c345d3bf80596e9a79b, Release)",
+  "mathlib_revision": "8f9d9cff6bd728b17a24e163c9402775d9e6a365",
+  "clean_local_module_build": true,
+  "clean_build_exit_code": 0,
+  "build_jobs": 3107,
+  "axiom_audit_exit_code": 0,
+  "axiom_reports": 10,
+  "axioms_observed": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "audited_theorems": [
+    "VerifiedChain.cauchy_energy_gap_lower",
+    "VerifiedChain.strict_energy_gap",
+    "VerifiedChain.physicalEnergy_eq_totalEnergy",
+    "VerifiedChain.physical_counterexample",
+    "VerifiedChain.explicit_repulsive_core_counterexample",
+    "VerifiedChain.collision_barrier",
+    "VerifiedChain.directEnergy_eq_physicalEnergy",
+    "VerifiedChain.direct_counterexample",
+    "VerifiedChain.repulsive_core_counterexample",
+    "VerifiedChain.pairPotential_collision_barrier"
+  ],
+  "official_kernel_replay": {
+    "mode": "separate sequential process for each local module",
+    "modules": [
+      "ChainModel",
+      "CoreBounds",
+      "PolynomialCertificate",
+      "CauchyCertificate",
+      "Main"
+    ],
+    "exit_codes": {
+      "ChainModel": 0,
+      "CoreBounds": 0,
+      "PolynomialCertificate": 0,
+      "CauchyCertificate": 0,
+      "Main": 0
+    },
+    "external_independent_kernel": false
+  },
+  "numerical_check_exit_code": 0,
+  "numerical_check_is_a_formal_proof": false,
+  "initial_parallel_replay_note": "The initial combined five-module leanchecker invocation was killed with exit code 137 and no diagnostic. The same official checker was rerun sequentially, one module per process; all five passed. No Lean source was changed for this retry.",
+  "reproducibility_script_note": "verify.py was updated to use the successful sequential replay procedure. The initial clean build and axiom checks were retained, and the remaining checks were resumed through the same logging helper without unnecessarily recompiling.",
+  "source_hashes_match_delivered_files": true,
+  "source_sha256": {
+    "CauchyCertificate.lean": "5587c560682aba3e963e1b80308d35215221893d7661eb11e4b19737780c9ab9",
+    "PolynomialCertificate.lean": "9314085689bc5472b1301766e6487cb55a825f21e81add17b9df790e11dc5694",
+    "Main.lean": "cfd3ec4affdeb4e0a741e1136a42063ac2d3063524b281d4560efc52a6096cab",
+    "CoreBounds.lean": "ce92a95fbbf35093a3a7670edc6d970bdb00c3be19948911b7917501cb2543f3",
+    "ChainModel.lean": "03f50305edf09f5a6c90e6c09cb93283cca5d08d0b956b5acd4ab4d9cc23b881",
+    "lakefile.toml": "6d5d63e16b76b19c3ded0cb36cc397b9a3706761b8825aec29d2fddd89e9b5f6",
+    "lake-manifest.json": "c66c53cd166ccdbbd999a66ff2baa395846da144fa02be5fc458974c167ac4cf",
+    "lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+    "verify.py": "608ef7be9fa3a3b944ea493dd5afed8af16fad1c57761a18fb63e9b853e66b2e",
+    "numerical_check.py": "634ae6a25537cbf1c12e15a4466ed4aa8c0f6ad76331c57df24241b8f9f281b5"
+  },
+  "log_files": [
+    "toolchain.log",
+    "build.log",
+    "axioms.log",
+    "kernel_replay_ChainModel.log",
+    "kernel_replay_CoreBounds.log",
+    "kernel_replay_PolynomialCertificate.log",
+    "kernel_replay_CauchyCertificate.log",
+    "kernel_replay_Main.log",
+    "numerical_check.log"
+  ]
+}

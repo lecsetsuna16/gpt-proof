@@ -1,0 +1,30 @@
+All finite exact arithmetic checks passed; numerical sums are not proofs.
+E=(1/4)*ordered-pair sum; conventional physical energy per particle is E/2.
+Potential: V_lambda(r,sigma,tau)=lambda/r^2-sigma*tau*4/(4+r^2)
+Soft-gap coefficients n=1..8: -1, 5/2, -1, -1, -1, 5/2, -1, 0
+Core-cost coefficients n=1..8: [4, -6, 4, -4, 4, -6, 4, 0]
+Exact B_0: 23403/453050 = 0.051656550049663394
+Polynomial certificate: exact identity checked; all 15 integer coefficients are positive.
+Finite direct-image/shell equality: exact, through half-grid distance 256
+
+exact_finite_image_check:
+  image_indices: -32..32
+  soft_gap: 0.05045079183731663
+  core_cost: 2.775826920601081
+  total_gap_at_lambda: 0.047674964916715544
+
+approximate_large_image_sum_NOT_A_PROOF:
+  image_indices: -10000..10000
+  soft_gap: 0.05045079250298837
+  core_cost: 2.7758262378064056
+  reference_9_pi_squared_over_32: 2.775826237806382
+  core_cost_minus_reference: 2.353672812205332e-14
+  total_gap_at_lambda: 0.04767496626518196
+
+margin_arithmetic_using_bounds_that_require_the_Lean_proof:
+  soft_lower_margin: 178163/3624400
+  soft_lower_margin_decimal: 0.04915655004966339
+  total_lower_margin: 600863/18122000
+  total_lower_margin_decimal: 0.03315655004966339
+  claimed_simple_strict_margin: 1/32
+  conventional_energy_margin_is_half: 1/64

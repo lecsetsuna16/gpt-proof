@@ -1,0 +1,28 @@
+ℹ [3102/3107] Built ChainModel (6.7s)
+info: ChainModel.lean:392:0: 'VerifiedChain.hits_iff_unique_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ChainModel.lean:393:0: 'VerifiedChain.uniform_signed_counts' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ChainModel.lean:394:0: 'VerifiedChain.shifted_unsigned_counts' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ChainModel.lean:395:0: 'VerifiedChain.imageSum_eq_shellSum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ChainModel.lean:396:0: 'VerifiedChain.imageSum_eq_literalPairSum' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3103/3107] Built PolynomialCertificate (9.3s)
+info: PolynomialCertificate.lean:80:0: 'VerifiedChain.first_block_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PolynomialCertificate.lean:81:0: 'VerifiedChain.cauchy_block_tail_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3104/3107] Built CoreBounds (5.3s)
+info: CoreBounds.lean:172:0: 'VerifiedChain.inverse_sq_tsum_le_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CoreBounds.lean:173:0: 'VerifiedChain.bounded_core_le_sixteen' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CoreBounds.lean:174:0: 'VerifiedChain.coreEnergy_shifted_le_sixteen' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CoreBounds.lean:175:0: 'VerifiedChain.collision_barrier' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3105/3107] Built CauchyCertificate (18s)
+info: CauchyCertificate.lean:117:0: 'VerifiedChain.cauchy_gap_series_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3106/3107] Built Main (9.2s)
+info: Main.lean:194:0: 'VerifiedChain.cauchy_energy_gap_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Main.lean:195:0: 'VerifiedChain.strict_energy_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Main.lean:196:0: 'VerifiedChain.physicalEnergy_eq_totalEnergy' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Main.lean:197:0: 'VerifiedChain.physical_counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Main.lean:198:0: 'VerifiedChain.explicit_repulsive_core_counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Main.lean:199:0: 'VerifiedChain.collision_barrier' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Main.lean:200:0: 'VerifiedChain.directEnergy_eq_physicalEnergy' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Main.lean:201:0: 'VerifiedChain.direct_counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Main.lean:202:0: 'VerifiedChain.repulsive_core_counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Main.lean:203:0: 'VerifiedChain.pairPotential_collision_barrier' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (3107 jobs).
