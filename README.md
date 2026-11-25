@@ -142,8 +142,8 @@ $$
 对所有正 `λ`、`|s|≤1` 和 `B≥0`，Lean 验证
 
 $$
-\exists\delta>0,\ \forall\,0<r<\delta,\quad
-B<\frac\lambda{r^2}-s\frac4{4+r^2}.
+\exists \delta > 0,\quad \forall r\in(0,\delta),\quad
+B < \frac{\lambda}{r^2}-s\frac{4}{4+r^2}.
 $$
 
 所以任意高的目标配对势能都可在足够近的距离处超过。这确切表达了正方向趋近碰撞时势能趋于正无穷。它是配对碰撞屏障的结论，不单独等同于无限体系整体的热力学稳定性定理。
